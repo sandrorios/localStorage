@@ -6,7 +6,6 @@
     <link rel="stylesheet" href="styles.css">
     <title>LocalStorage</title>
 </head>
-<body>
     <div class="wrapper">
         <h1>Web Storage</h1>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas, molestiae eum. Ducimus illo quam in id maiores reprehenderit dicta autem saepe, animi perspiciatis vero magni doloremque, reiciendis voluptates porro qui!</p>
@@ -15,7 +14,7 @@
                 <label for="bgcolor">
                     Choose background color:
                 </label>
-                <input type="text" class="color" id="bgcolor" value="FF0000">
+                <input class="color" id="bgcolor" value="FF0000">
             </div>
             <div>
                 <label for="font">Choose font style:</label>
@@ -28,13 +27,15 @@
             <div>
                 <label for="image">Choose image:</label>
                 <select id="image">
-                    <option value="./image/firefoxos.png">Firefox</option>
-                    <option value="./image/crocodile.png">Crocodile</option>
-                    <option value="./image/toroise.png">Tortoise</option>
+                    <option value="image/firefoxos.png" selected>Firefox</option>
+                    <option value="image/crocodile.png">Crocodile</option>
+                    <option value="image/tortoise.png">Tortoise</option>
                 </select>
             </div>
         </form>
-    </div>
+        <footer></footer>
+        <img src="image/firefoxos.png">
+    
     <script src="./jscolor/jscolor.js"></script>
     <script src="main.js"></script>
 </body>
