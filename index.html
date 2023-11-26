@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>LocalStorage</title>
+</head>
+<body>
+    <div class="wrapper">
+        <h1>Web Storage</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas, molestiae eum. Ducimus illo quam in id maiores reprehenderit dicta autem saepe, animi perspiciatis vero magni doloremque, reiciendis voluptates porro qui!</p>
+        <form>
+            <div>
+                <label for="bgcolor">
+                    Choose background color:
+                </label>
+                <input type="text" class="color" id="bgcolor" value="FF0000">
+            </div>
+            <div>
+                <label for="font">Choose font style:</label>
+                <select id="font">
+                    <option value="sans-serif" selected>Sans-serif</option>
+                    <option value="serif" selected>Serif</option>
+                    <option value="monospace">Monospace</option>
+                </select>
+            </div>
+            <div>
+                <label for="image">Choose image:</label>
+                <select id="image">
+                    <option value="images/firefoxos.png">Firefox</option>
+                    <option value="images/crocodile.png">Crocodile</option>
+                    <option value="image/toroise.png">Tortoise</option>
+                </select>
+            </div>
+        </form>
+    </div>
+    <script src="jscolor/jscolor.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
